@@ -1,11 +1,11 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+title: ajpagente | Learning by Sharing 
+description: "I share on software development and inspiration."
+url: "https://ajpagente.github.io"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "AJ Pagente"
+  email: "ajpagente.software@gmail.com"
+  url: "https://ajpagente.github.io"
 
 # Build settings
 baseurl: /
