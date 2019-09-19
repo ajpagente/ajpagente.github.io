@@ -11,5 +11,5 @@ The App Store Connect screenshot specifications specify the following devices un
 * iPhone XS Max
 * iPhone XR
 
-You can capture screenshots with the iOS simulator and initially I used **iPhone XR**. However the screenshots were rejected by App Store Connect since the size captured is  
-Instead use **iPhone XS Max** simulator to capture a screenshot size of 1242 x 2688 pixels (portrait)
+You can capture screenshots with the iOS simulator and initially I used **iPhone XR**. However the screenshots were rejected by App Store Connect since the size captured is  828x1792 pixels (portrait) 
+Instead use **iPhone XS Max** simulator to capture a screenshot size of 1242x2688 pixels (portrait)
