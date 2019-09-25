@@ -1,6 +1,6 @@
 # Site settings
 title: ajpagente | Learning by Sharing 
-description: "I share on software development and inspiration."
+description: "I share on software development, app sec, mobile sec, reverse engineering."
 url: "https://ajpagente.github.io"
 author:
   name: "AJ Pagente"
@@ -30,7 +30,7 @@ gems:
   - jekyll-paginate
 
 # Custom variables
-version: "1.1.0"
+version: "0.0.1"
 
 # Options
 custom_header: true
