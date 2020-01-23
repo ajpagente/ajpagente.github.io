@@ -1,5 +1,5 @@
 ---
-title: "Jailbreak iOS 10.3.3 with doubleH3lix"
+title: "Jailbreak iOS 10.x with doubleH3lix"
 categories: 
   - mobile
 tags:
@@ -9,9 +9,9 @@ tags:
 ---
 
 # Introduction
-This document describes how to jailbreak iOS 10.3.3 with doubleH3lix 
+This document describes how to jailbreak iOS 10.x with doubleH3lix 
 
-doubleH3lix is a jailbreak for 64-bit 10.x devices. It is composed of an ipa which you install on a target device and run the app.
+doubleH3lix is a jailbreak for 64-bit 10.x devices with A7-A9 processors (devices with headphone jacks). It is composed of an ipa which you install on a target device and run the app to jailbreak.
 
 ## Environment
 * macOS Catalina version 10.15.1
@@ -37,11 +37,11 @@ You will be asked to enter your Apple ID, password, and one-time password.i
 * Attach your target device to your machine
 * Launch Cydia Impactor. Your device will show up in the top field of Impactor.
   ![Impactor](/assets/images/impactor-phone.PNG)
-* Drag the doubleH3lix ipa to the Impactor dialog. It will start the resigning process. You will be prompted for your Apple ID.
+* Drag the doubleH3lix ipa to the Impactor dialog. The signing process starts and you will be prompted for your Apple ID.
 
   ![Impactor](/assets/images/impactor-appleid.PNG)
 
-  You will then be prompted for a password. Enter the app-specific password.
+  Next, you will then be prompted for a password. Enter the app-specific password.
 
   ![Impactor](/assets/images/impactor-pw.PNG)
 
@@ -50,7 +50,7 @@ You will be asked to enter your Apple ID, password, and one-time password.i
   ![doubleH3lix](/assets/images/doublehelix-phone.png)
 
 ### Troubleshooting
-1. Signing fails and the dialog below pops-up. This is an issue with using temporary app IDs which according to someone in [Reddit](https://www.reddit.com/r/jailbreak/comments/dslnaw/help_help_with_cydia_impactor/) requires Impactor to be updated. There is no fix as of the time this article is written. The solution is to use an Apple ID with a paid developer account.
+1. Signing fails and the dialog below pops-up. This is an issue when using an Apple ID which is not registered to an Apple Developer account. According to a post on [Reddit](https://www.reddit.com/r/jailbreak/comments/dslnaw/help_help_with_cydia_impactor/) this requires Impactor to be updated. There is no fix as of the time this article is written. The solution is to use an Apple ID registered with a paid Apple Developer account.
 
     ![trouble 1](/assets/images/impactor-error-provision.PNG)
 
@@ -59,8 +59,10 @@ You will be asked to enter your Apple ID, password, and one-time password.i
     ![trouble 2](/assets/images/impactor-error-plist.PNG)
 
 ## Jailbreak
+Perform the following steps after successfully installing doubleH3lix.
+ 
 1. Make sure your device is connected to the internet
-2. Go to Settings > General > Profile & Device Management. Tap the Apple ID and trust  
+2. Go to **Settings > General > Profile & Device Management**. Locate the certificate for the doubleH3lix app and tap the Trust option.  
 3. Launch doubleH3lix
 4. Tap Kickstart
     ![launch](/assets/images/doublehelix-launch.PNG)
