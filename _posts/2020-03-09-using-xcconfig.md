@@ -113,7 +113,6 @@ Do the same for the rest of the fields. Once done, the Debug signing settings is
 
 To verify your signing settings, attach a device to your development Mac, choose the device as the build target in XCode, and press ⌘+B to build. A successful build confirms that the signing settings are right.
 
-
 That's it! You have configured your XCode project to use xcconfig. You can now run your app on a device. Happy developing!!!
 
-
+Continue to [Part 2]({% link _posts/2020-03-21-xcb-with-xcconfig.md %}), to learn how to generate an ipa from the command-line.
