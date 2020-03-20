@@ -7,7 +7,7 @@ tags:
   - development
 ---
 
-__Version:__ The project is built with XCode 11.3 on MacOS Mojave
+__Version:__ The project is built with __XCode 11.3__ on __MacOS Mojave__
 
 XCode build configuration files, known as _xcconfig_, is a plaintext file that defines or overrides the configuration of a project or target. Xcconfig enables scripts to update an XCode project's configuration and makes it easier to share configurations across projects.
   
